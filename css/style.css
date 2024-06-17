@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Alkatra", sistem-ui;
+}
+
+nav{
+    height: 70px;
+    position: fixed;
+    background-color: beige;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+    h2{
+        padding-left: 2rem
+    }
+
+    li{
+        padding-right: 2rem;
+        display: flex;
+
+        ul{
+            padding-left: 3rem;
+
+            a{
+                color: black;
+                padding: 10px;
+                border-radius: 8px;
+
+            }
+
+            a:hover{
+                color: white;
+                background-color: chocolate;
+                transition: .25s ease-in-out;
+            }
+        }
+    }
+}
+
+
+
+main{
+    margin: auto;
+    padding: 70px;
+    text-align: center;
+
+}
